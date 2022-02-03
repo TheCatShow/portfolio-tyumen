@@ -30,6 +30,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -56,4 +60,21 @@ h1, h2, h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
+}
+
+.nav__item {
+    padding: 10px;
+}
+
+.info__text {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.info__button {
+    margin-bottom: 2em;
+    border-radius: 2px;
+    background: #FF6464;
+    color: white;
+    block-size: 3em;
 }
