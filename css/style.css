@@ -30,14 +30,10 @@ h1, h2, h3 {
     margin: 0;
 }
 
-h1 {
-    font-size: 3em;
-}
-
 .wrapper {
-    min-height: 100%;
-    overflow: hidden;
-}
+    min-height: 100%;  
+    overflow: hidden; 
+} 
 
 .container {
     max-width: 855px;
@@ -66,12 +62,38 @@ h1 {
     padding: 10px;
 }
 
-.info__text {
+.about__container {
+    display: flex;
+}
+
+.about__info {
+    padding-right: 19%;
+}
+
+.about__title {
+    margin-bottom: 40px;
+}
+
+.about__avatar {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.about__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__desc {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-.info__button {
+.button__download-btn {
     margin-bottom: 2em;
     border-radius: 2px;
     background: #FF6464;
