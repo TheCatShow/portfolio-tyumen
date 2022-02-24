@@ -177,13 +177,14 @@ h1, h2, h3 {
     font-weight: normal;
     font-size: 22px;
     line-height: 60px;
+    margin-top: 34px;
+    margin-bottom: 22px;
 }
 
-.work__img-wrap {
+.work {
+    width: 246px;
+    height: 180px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-right: 39em;
 }
 
 .work__img {
@@ -197,22 +198,17 @@ h1, h2, h3 {
     font-weight: bold;
     font-size: 30px;
     line-height: 44px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10em;
+    margin-left: 18px;
 }
 
 .work__date {
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    line-height: 60px;
     color: #FFFFFF;
     background: #142850;
     border-radius: 16px;
-    width: 42px;
-    height: 57px;
+    min-width: 42px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -224,9 +220,6 @@ h1, h2, h3 {
     font-size: 20px;
     line-height: 29px;
     color: #8695A4;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
 }
 
 .work__text {
@@ -234,7 +227,4 @@ h1, h2, h3 {
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
 }
