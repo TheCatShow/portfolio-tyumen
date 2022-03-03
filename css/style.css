@@ -51,11 +51,40 @@ h1, h2, h3 {
     justify-content: flex-end;
 }
 
+.header__mobile {
+    width: 30px;
+    position: relative;
+}
+
+.header__mobile-el,
+.header__mobile-el::before
+.header__mobile-el::after {
+    height: 2px;
+    width: 100%;
+    background-color: #21243D;
+    position: absolute;
+}
+
+.header__mobile-el::before {
+    content: '';
+    top: -8px;
+}
+
+.header__mobile-el::after {
+    content: '';
+    top: -8px;
+}
+
 .nav__list {
     display: flex;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
+}
+
+.nav__item {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .about__container {
