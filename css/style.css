@@ -328,6 +328,27 @@ h3 {
     border: 1px solid #E0E0E0;
 }
 
+@media (max-width: 480px) {
+    .title__category {
+        margin-left: 135px;
+    } 
+    .work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work__img {
+        width: 339px;
+        height: 230px;
+    }
+    .work__title {
+        font-size: 24px;
+    }
+    .work__text {
+        margin-bottom: 17px;
+    }
+}
+
 .social__item {
     width: 30px;
     height: 30px;
@@ -381,4 +402,11 @@ h3 {
     text-align: center;
     margin-top: 26px;
     padding-bottom: 54px;
+}
+
+@media (max-width: 480px) {
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
 }
