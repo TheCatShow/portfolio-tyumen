@@ -395,13 +395,21 @@ h3 {
 .social__item {
     width: 30px;
     height: 30px;
+    overflow: hidden;
     margin-right: 35px;
+}
+
+.social__item:last-child {
+    margin-right: 0px;
 }
 
 .social__link {
     display: block;
     width: 100%;
     height: 100%;
+    font-size: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fb {
@@ -428,8 +436,38 @@ h3 {
     background-repeat: no-repeat;
 }
 
+.vk {
+    background-image: url(../img/icon/vk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.telegram {
+    background-image: url(../img/icon/telegram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.github {
+    background-image: url(../img/icon/github.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.in {
+    background-image: url(../img/icon/ok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .footer {
-    margin-top: 83px;
+    padding: 51px 0px 54px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .social {
